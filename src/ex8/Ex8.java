@@ -1,0 +1,16 @@
+package ex8;
+// static method
+// instance method
+class  Bonus{
+    public static float calBonus(float s){
+        return 0.05f*s;
+    }
+}
+
+public class Ex8 {
+    public static void main(String[] args) {
+
+        System.out.println("Bonus = " + Bonus.calBonus(4000)+"บาท");
+    }
+}
+
